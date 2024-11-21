@@ -1,0 +1,32 @@
+[
+  {
+    "ContainingType": "Aspnetcore_Auth.Controllers.ApiController",
+    "Method": "Claims",
+    "RelativePath": "Api/claims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aspnetcore_Auth.Controllers.ApiController",
+    "Method": "Private",
+    "RelativePath": "Api/private",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aspnetcore_Auth.Controllers.ApiController",
+    "Method": "Public",
+    "RelativePath": "Api/public",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

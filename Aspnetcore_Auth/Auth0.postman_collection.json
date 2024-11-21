@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "61c0064b-7d3e-446f-902c-975f106b78c5",
+		"name": "Auth0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "16131772"
+	},
+	"item": [
+		{
+			"name": "Public API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7134/api/public"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Token",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"client_id\":\"4lPfKDyBbpi0vXnBggJwRSmwSwvw3eS7\",\r\n    \"client_secret\": \"EXmfur2s_7CGeRxEqBgeaoM8633JSKzYnZ8PsjlZ06Fk7JKwW3W4GHZuTL0CJdxY\",\r\n    \"audience\":\"https://dev-iwata4dmxr1dbfzw.us.auth0.com/api/v2/\",\r\n    \"grant_type\":\"client_credentials\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7134/api/private"
+			},
+			"response": []
+		},
+		{
+			"name": "Private API",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Claims",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

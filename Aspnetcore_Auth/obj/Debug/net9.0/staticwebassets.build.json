@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "0RjqPx3wPgyhRp+4AurkJPNnf8K7UguC7uvjNfZ0P+M=",
+  "Source": "Aspnetcore_Auth",
+  "BasePath": "_content/Aspnetcore_Auth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
